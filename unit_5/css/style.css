@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Monoton|Oswald:200,400);
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding:20px;
+}
+body{
+	font-family: Oswald, Arial, sans-serif;
+	font-size: 18px;
+	color: rgb(45,67,99);
+	line-height: 1.5em;
+}
+div{
+	width:1080px;
+	margin: 0 auto;
+	background-color: #FFE2B8;
+}
+h1{
+	color:rgb(204,171,90);
+	font-size: 2.5em;
+	font-family: Monoton, cursive;
+	font-weight: lighter;
+	padding:10px;
+}
+a{
+	padding-right: 30px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	color: rgb(92,136,201);
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-align: center;
+}
+main{
+	width: 400px;
+	float: left;
+}
+article{
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+	border: 1px black solid;
+	width: 400px;
+	float: right;
+	padding: 20px;
+	margin-right: 20px;
+}
+p{
+	text-align: center;
+	font-weight: lighter;
+}
+h3{
+	background-color: rgb(45,67,99);
+	font-size: 1em;
+	font-weight: lighter;
+	letter-spacing: 4px;
+	color:rgb(255,255,255);
+	text-align: right;
+	padding: 10px;
+}
+ul{
+	padding-left: 20px;
+}
+#category{
+	width: 100%;
+}
+footer{
+	text-align: center;
+	background-color: #FF957e;
+	border: 1px black solid;
+	color: rgb(255,255,255);
+	letter-spacing: 2px;
+	padding: 20px;
+	clear: both;
+}
