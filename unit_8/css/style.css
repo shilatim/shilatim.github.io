@@ -12,7 +12,7 @@ body{
 	margin: 0 auto;
 }
 #wrapper{
-	padding: 20px;
+	padding: 2%;
 	margin: 0 auto;
 }
 h1{
@@ -20,43 +20,43 @@ h1{
 	font-size: 2.5em;
 	font-family: Monoton, cursive;
 	font-weight: lighter;
-	padding:10px;
+	padding:.5em;
 }
 h3{
 	background-color: rgb(45,67,99);
 	font-size: 1em;
 	font-weight: lighter;
-	letter-spacing: 4px;
+	letter-spacing: .25em;
 	color:rgb(255,255,255);
 	text-align: right;
-	padding: 10px 10px 10px;
+	padding: 1% 1% 1%;
 }
 a {
-	padding: 10px;
+	padding: 1%;
 	text-decoration: none;
 }
 nav{
 	text-decoration: none;
 	text-align: center;
-	padding: 20px 0px;
+	padding: 2% 0%;
 }
 nav a{
 	color: rgb(92,136,201);
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: .15em;
 }
-article{
+.left{
 	width: 33%;
 	float: left;
-	padding: 10px;
+	padding: 1%;
 }
 #createit{
 	background-color: #B9DAE1;
 	color: white;
-	width: 30%;
+	width: 34%;
 	float: right;
-	padding: 10px;
-	margin: 10px 0px 20px 0px;
+	padding: .5em;
+	margin: .5em 0 1.1em 0;
 }
 img{
 	width: 100%;
@@ -67,19 +67,18 @@ p{
 }
 
 ul{
-	padding-left: 10px;
+	padding-left: 1%;
 
 }
 footer{
 	background-color: #B5CFE8;
 	color: rgb(255,255,255);
-	letter-spacing: 2px;
-	padding: 10px;
+	letter-spacing: .15em;
+	text-align: center;
 	clear: both;
 }
-.category{
-	width: 300px;
-}
+
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -90,4 +89,34 @@ footer{
 }
 #woodblocks{
 	width: 100%;
+}
+@media only screen and (max-width: 860px){
+body{
+	font-size: 16px
+}
+.left{
+float: none;
+width: auto;
+}
+#createit {
+	float: none;
+	width: auto;
+}
+}
+@media only screen and (max-width: 400px){
+body {
+ font-size: 12
+}
+h1{
+	font-size:1.6em;
+	text-align: center;
+}
+nav a {
+	display: block;
+	text-align: center;
+	float: none;
+}
+p{
+	width: 12em;
+}
 }
